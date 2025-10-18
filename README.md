@@ -11,7 +11,7 @@ YARN (Yet Another Resource Negotiator) — Cluster Management Layer
 MapReduce — Processing Layer
 
 #### Architecture
-![img]![Hadoop Architecture.png](Images/Hadoop%20Architecture.png)
+![img]![Architecure.png](Images/Architecure.png)
 
 #### MapReduce – Processing Layer
 ##### Purpose:
