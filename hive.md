@@ -91,4 +91,5 @@ SELECT * FROM employees_bucketed TABLESAMPLE(BUCKET 2 OUT OF 4);
 -- Notes: Buckets are physically stored as files in HDFS.
 ```
 ![Internalvsexternal.png](Images/Internalvsexternal.png)
+
 ![PartitioningvsBucketing.png](Images/PartitioningvsBucketing.png)
