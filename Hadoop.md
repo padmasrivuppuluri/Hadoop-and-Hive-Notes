@@ -11,15 +11,16 @@ YARN (Yet Another Resource Negotiator) — Cluster Management Layer
 MapReduce — Processing Layer
 
 #### Architecture
-![img]![Architecure.png](Images/Architecure.png)
+![Architecure.png](Images/Architecure.png)
 
 #### MapReduce – Processing Layer
 ##### Purpose:
 To process large-scale data in parallel across the cluster.
+
 How it Works:
-Map Phase:
+###### Map Phase:
 Splits the input data into chunks and processes them in parallel, generating intermediate key-value pairs.
-Reduce Phase:
+###### Reduce Phase:
 Aggregates or summarizes the intermediate data to produce the final output.
 ##### Analogy:
 MapReduce is the data processor that works on top of HDFS using the cluster resources managed by YARN.
